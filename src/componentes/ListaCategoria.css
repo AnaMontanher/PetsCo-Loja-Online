@@ -1,0 +1,28 @@
+#lista {
+  background-color: #ffbe3c;
+  padding: 1.25rem 0;
+}
+#categoria_lista {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+}
+.categoria_imagem {
+  width: 4rem;
+}
+.link_categoria {
+  font-weight: 700;
+  color: #4f498f;
+}
+
+@media (min-width: 1000px) {
+  .categoria_imagem {
+    width: 9rem;
+  }
+  #categoria_lista {
+    gap: 2rem;
+    font-size: 1rem;
+  }
+}

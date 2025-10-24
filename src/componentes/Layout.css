@@ -1,0 +1,46 @@
+#link_logo{
+  color: #252152;
+}
+#navbar,
+.navbar,
+.brand {
+  background-color: #f5e1da;
+  color: #252152 !important;
+  font-weight: 400;
+}
+/* "EC4176","FFBE3C","252152","C59FDA","FFFFFF","FF7EA2","F5E1DA" */
+#imageLogo {
+  width: 50px;
+}
+.nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #c59fda;
+  text-decoration-color: #c59fda;
+}
+
+footer {
+  background-color: #ffff;
+}
+
+#hero {
+  background-image: url(../assets/heroimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 5%;
+  min-height: 600px;
+  padding-left: 5rem;
+}
+
+@media (min-width: 175px) {
+  #hero {
+    font-size: 14px;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1000px) {
+  #hero {
+    font-size: 14px;
+    align-items: center;
+  }
+}
